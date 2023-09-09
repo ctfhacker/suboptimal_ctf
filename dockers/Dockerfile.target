@@ -1,0 +1,4 @@
+FROM snapchange_base_target
+
+RUN apk add gcompat
+COPY suboptimal.patched /opt
